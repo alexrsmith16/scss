@@ -52,6 +52,8 @@ html, body {
       margin: 20px 0;
       display: flex;
       justify-content: space-between; }
+      .nav .nav-container .nav-title > div i:hover {
+        cursor: pointer; }
     .nav .nav-container > div {
       padding: 10px 15px;
       display: flex;
@@ -59,7 +61,8 @@ html, body {
       border-left: 2px solid transparent; }
       .nav .nav-container > div.nav-item:hover, .nav .nav-container > div.active {
         border-left: 2px solid #247DD5;
-        background: linear-gradient(90deg, rgba(36, 125, 213, 0.1) 0%, rgba(255, 255, 255, 0) 100%); }
+        background: linear-gradient(90deg, rgba(36, 125, 213, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+        cursor: pointer; }
       .nav .nav-container > div i {
         margin-right: 10px; }
 
