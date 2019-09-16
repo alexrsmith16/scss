@@ -128,7 +128,7 @@ html, body {
     .main .workflow .column {
       background-color: #EBEBEE;
       height: min-content;
-      width: 250px;
+      width: 300px;
       border-radius: 5px; }
       .main .workflow .column .column_header {
         padding: 10px; }
