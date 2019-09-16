@@ -47,6 +47,9 @@ html, body {
     margin: 20px 0;
     display: flex;
     justify-content: space-between;
+    i:hover {
+      cursor: pointer;
+    }
   }
   >div {
     padding: 10px 15px;
@@ -56,7 +59,7 @@ html, body {
     &.nav-item:hover, &.active {
       border-left: 2px solid $accentBlue;
       background: linear-gradient(90deg, rgba(36,125,213,0.1) 0%, rgba(255,255,255,0) 100%);
-
+      cursor: pointer;
     }
     i{
       margin-right: 10px;
