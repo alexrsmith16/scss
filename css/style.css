@@ -35,9 +35,32 @@ html, body {
   width: 100%;
   min-height: min-content;
   height: 100%;
-  background-color: #131923; }
+  background-color: #131923;
+  display: flex; }
+
+.nav {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #131923;
+  color: #ffffff; }
+  .nav h2 {
+    display: flex;
+    justify-content: flex-end; }
+  .nav > div {
+    padding: 10px 15px;
+    display: flex;
+    margin-bottom: 10px;
+    border-left: 2px solid transparent; }
+    .nav > div.nav-item:hover, .nav > div.active {
+      border-left: 2px solid #247DD5;
+      background: linear-gradient(90deg, rgba(36, 125, 213, 0.1) 0%, rgba(255, 255, 255, 0) 100%); }
+    .nav > div i {
+      margin-right: 10px; }
 
 .main {
+  left: 200px;
   width: 100%;
   min-height: min-content;
   height: 100%; }

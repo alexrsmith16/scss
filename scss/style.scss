@@ -35,9 +35,40 @@ html, body {
   min-height: min-content;
   height: 100%;
   background-color: $navBGcolor;
+  display: flex;
 }
+.nav {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #131923;
+  color: #ffffff;
 
+  h2{
+    display: flex;
+    justify-content: flex-end;
+
+  }
+
+  >div {
+    padding: 10px 15px;
+    display: flex;
+    margin-bottom: 10px;
+    border-left: 2px solid transparent;
+    &.nav-item:hover, &.active {
+      border-left: 2px solid $accentBlue;
+      background: linear-gradient(90deg, rgba(36,125,213,0.1) 0%, rgba(255,255,255,0) 100%);
+
+    }
+    i{
+      margin-right: 10px;
+    }
+  }
+}
 .main {
+
+  left: 200px;
   width: 100%;
   min-height: min-content;
   height: 100%;
